@@ -6,8 +6,8 @@ build:
 	gcc sender2_5.c -o send2 -lrt
 	gcc rec2_5.c -o rec2 -lrt
 	gcc SharedMemory. -o shared -lrt
-	gcc SemaphoreQueue_2.c -o Sema -lrt
-	gcc Mutexque.c -o mque -lrt 
+	gcc SemaphoreQueue_2.c -o Sema -lpthread
+	gcc Mutexque.c -o mque -lpthread
 
 
 
