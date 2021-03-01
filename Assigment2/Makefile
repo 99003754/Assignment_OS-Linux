@@ -6,6 +6,7 @@ build:
 	gcc sender2_5.c -o send2
 	gcc rec2_5.c -o rec2
 	gcc SharedMemory. -o shared
+	gcc SemaphoreQueue_2.c -o Sema
 
 
 
